@@ -1,0 +1,197 @@
+/* Styles globaux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Section de l'entête */
+header {
+    background: linear-gradient(to right, #ff4500, #ffa07a); /* Gradient pour Natsu */
+    text-align: center;
+    padding: 50px 0;
+}
+
+.natsu-image {
+    width: 200px;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+.quote {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #fff;
+    display: inline-block;
+}
+
+/* Barre de navigation */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffa07a;
+}
+
+nav ul li a:visited {
+    color: #ff4500;
+}
+
+/* Section biographie */
+.biographie {
+    padding: 50px;
+    background-color: #fafafa;
+}
+
+.chapitre {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-chapitre {
+    float: left;
+    margin-right: 10px;
+    width: 100px;
+}
+
+h2 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+/* Section pied de page */
+footer {
+    background-color: #333;
+    color: #ffa07a;
+    text-align: center;
+    padding: 50px 15px;
+    width: 100%;
+    position: relative;
+}
+
+/* Page Compétences */
+.competences {
+    padding: 50px;
+    background-color: #fafafa;
+}
+
+ol, ul {
+    padding-left: 40px;
+}
+
+ol li, ul li {
+    margin: 5px 0;
+    padding: 5px;
+}
+
+/* Page Galerie */
+.galerie {
+    padding: 50px;
+    background-color: #fff;
+}
+
+.ligne-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.image-galerie {
+    flex-basis: 30%;
+    text-align: center;
+}
+
+.image-galerie img {
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-galerie:hover img {
+    box-shadow: none;
+    border: none;
+}
+
+.bordure-cercle img {
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.bordure-carree img {
+    border: 2px solid green;
+}
+
+.bordure-arrondie img {
+    border-radius: 15px;
+    border: 2px solid blue;
+}
+
+/* Page Contact */
+.infos-contact {
+    padding: 50px;
+}
+
+.reseaux-sociaux {
+    padding: 50px;
+}
+
+.lien-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+    background-image: url('assets/sprites.png');
+    background-size: cover;
+}
+
+.sprite-linkedin {
+    background-position: 0 0;
+}
+
+.sprite-github {
+    background-position: -50px 0;
+}
+
+/* Animation SVG */
+.bulle-parole {
+    animation: moveBubble 5s infinite alternate;
+}
+
+@keyframes moveBubble {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(300px); fill: lightblue; }
+}
