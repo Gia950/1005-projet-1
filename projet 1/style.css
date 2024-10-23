@@ -115,18 +115,23 @@ footer {
 }
 
 /* Page Compétences */
+.h1 {
+    text-align: center;
+}
+
+.b {
+    font-size: 20px;
+}
+
 .competences {
-    padding: 50px;
-    background-color: #fafafa;
-}
-
-ol, ul {
-    padding-left: 40px;
-}
-
-ol li, ul li {
-    margin: 5px 0;
+    text-align: justify;
     padding: 5px;
+    list-style-type: disc;
+}
+
+.experiences {
+    padding: 5px;
+    text-align: justify;
 }
 
 /* Page Galerie */
