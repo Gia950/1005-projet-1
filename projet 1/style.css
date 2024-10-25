@@ -116,8 +116,13 @@ footer {
     text-align: center;
 }
 
+.titre {
+    text-align: center;
+}
+
 .b {
     font-size: 20px;
+    list-style-type:armenian;
 }
 
 .competences {
@@ -129,6 +134,10 @@ footer {
 .experiences {
     padding: 5px;
     text-align: justify;
+}
+
+.entete-competences {
+    background-image: radial-gradient(white, pink);
 }
 
 /* Page Galerie */
@@ -194,6 +203,10 @@ footer {
     text-align: center;
 }
 
+.contacter2 {
+    text-align: center;
+}
+
 .suivez {
     text-align: center;
     padding: 30px;
@@ -211,20 +224,25 @@ footer {
 .téléphone {
     color: orange;
     padding: 25px;
+    text-align: center;
+}
+
+.courriel {
+    text-align: center;
 }
 
 .linkedin {
     padding: 10px;
     width: 100px;
     height: 100px;
-    align-content: center;
+    text-align: center;
 }
 
 .github {
     padding: 10px;
     width: 100px;
     height: 100px;
-    align-content: center;
+    text-align: center;
 }
 
 .reseaux-sociaux {
